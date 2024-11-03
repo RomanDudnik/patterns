@@ -6,9 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
-
 /**
- * Fabric Method - Фабричный метод (Fabric)
+ * Fabric Method - Фабричный метод (Abstract Factory (Fabric))
  * Порождающий паттерн, динамически создающий
  * необходимый класс по интерфейсу из семейства
  * классов
@@ -20,6 +19,7 @@ public class Main {
         // открываем предмет
         g1.openReward();
 
+        // создаем список фабрик
         List<ItemGenerator> genList = new ArrayList<>();
         genList.add(g1);
         genList.add(new GemGenerator());
@@ -32,6 +32,5 @@ public class Main {
             int index = random.nextInt(2);
             genList.get(index).openReward();
         }
-
     }
 }

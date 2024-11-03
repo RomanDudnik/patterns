@@ -6,7 +6,7 @@ import Interfaces.iGameItem;
  * Прототип фабрики игровых предметов
  */
 public abstract class ItemGenerator {
-    // Поле прототипа фабрики игровых предметов
+    // Метод создания игрового предмета
     public abstract iGameItem createItem();
 
     // Метод создания игрового предмета и его открытия
