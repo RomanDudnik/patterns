@@ -43,7 +43,7 @@ public class ViewCalculator {
         }
     }
 
-    // Метод ввода
+    // Метод ввода строк
     private String prompt(String msg) {
         Scanner scanner = new Scanner(System.in);
         System.out.print(msg);
