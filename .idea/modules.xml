@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract_Fabric/Abstract_Fabric.iml" filepath="$PROJECT_DIR$/Abstract_Fabric/Abstract_Fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/Adapter/Adapter.iml" filepath="$PROJECT_DIR$/Adapter/Adapter.iml" />
       <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Factory_Method/Factory_Method.iml" filepath="$PROJECT_DIR$/Factory_Method/Factory_Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Patterns.iml" filepath="$PROJECT_DIR$/Patterns.iml" />
     </modules>
   </component>
