@@ -12,6 +12,7 @@ import java.util.List;
  * представляет собой агентство по поиску сотрудников.
  * Его основная функция - рассылать предложения о работе наблюдателям,
  * которые зарегистрировались в агентстве.
+ * Publisher(Managers) - публикация ресурсов
  * @see iPublisher
  */
 public class JobAgency implements iPublisher {

@@ -3,7 +3,11 @@ package Observers;
 import interfaces.iObserver;
 
 import java.util.Random;
-
+/**
+ * Класс Master реализует интерфейс iObserver
+ * Профи, ищет хорошую высокооплачиваемую работу
+ * Observers - потребители ресурсов
+ */
 public class Master implements iObserver {
     // Имя
     private String name;

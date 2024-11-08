@@ -5,12 +5,13 @@ import interfaces.iObserver;
 /**
  * Класс Student реализует интерфейс iObserver
  * Студент, цепляется за любую работу, которая лучше текущей
+ * Observers - потребители ресурсов
  */
 public class Student implements iObserver {
-
+    // Имя
     String name;
     int salary;
-
+    // Конструктор
     public Student(String name){
         this.name = name;
         salary = 0;

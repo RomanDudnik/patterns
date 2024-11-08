@@ -7,6 +7,7 @@ import java.util.Random;
 /**
  * Класс Junior реализует интерфейс iObserver
  * Джуниор, который ищет работу подбрасывая монетку (Random)
+ * Observers - потребители ресурсов
  */
 public class Junior implements iObserver {
     // Имя

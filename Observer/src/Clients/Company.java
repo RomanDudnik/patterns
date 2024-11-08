@@ -7,6 +7,7 @@ import java.util.Random;
 /**
  * Компания, которая ищет сотрудников.
  * Будет давать команду агентству
+ * Clients - поставщики услуг
  */
 public class Company {
     /**
