@@ -27,7 +27,7 @@ public class JobAgency implements iPublisher {
      * @param observer
      */
     @Override
-    public void regiserObserver(iObserver observer) {
+    public void registerObserver(iObserver observer) {
         observers.add(observer);
     }
 

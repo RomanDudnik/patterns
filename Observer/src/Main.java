@@ -17,9 +17,9 @@ public class Main {
         iObserver sidorov = new Observers.Junior("Sidorov");
 
         // Регистрация наблюдателя в агентстве
-        jobAgency.regiserObserver(ivanov);
-//        jobAgency.regiserObserver(petrov);
-        jobAgency.regiserObserver(sidorov);
+        jobAgency.registerObserver(ivanov);
+//        jobAgency.registerObserver(petrov);
+        jobAgency.registerObserver(sidorov);
 
         // Рассылка предложений наблюдателям
         for (int i = 0; i < 5; i++) {

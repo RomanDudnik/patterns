@@ -9,7 +9,7 @@ public interface iPublisher {
      * Зарегистрировать наблюдателя
      * @param observer
      */
-    void regiserObserver(iObserver observer);
+    void registerObserver(iObserver observer);
 
     /**
      * Удалить наблюдателя
